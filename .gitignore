@@ -1,52 +1,17 @@
-# Prerequisites
-*.d
+# IM Folder is a temp folder of Siemens
+# IM Folder can be deleted
+# Tia portal will recreate the folders and files on the next compile
+IM/SearchIndex/
+IM/SPL/options
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# This file holds the information of the last user that opened the project
+# <User></User>
+# <Computer></Computer>
+# <Time></Time>
+TOMRA5B_*.info
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# this file is giving it a hard time
+# in my opinion only PEData.plf and PEData.id are needed
+# this file will only be used as long as the program is open
+# once you close the program this file will be deleted and writen to the other files
+System/~PEData.2
