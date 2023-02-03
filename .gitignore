@@ -8,7 +8,7 @@ IM/SPL/options
 # <User></User>
 # <Computer></Computer>
 # <Time></Time>
-TOMRA5B_*.info
+*_*.info
 
 # this file is giving it a hard time
 # in my opinion only PEData.plf and PEData.id are needed
