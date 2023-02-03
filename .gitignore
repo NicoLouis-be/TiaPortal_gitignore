@@ -1,8 +1,7 @@
 # IM Folder is a temp folder of Siemens
 # IM Folder can be deleted
 # Tia portal will recreate the folders and files on the next compile
-IM/SearchIndex/
-IM/SPL/options
+IM/
 
 # This file holds the information of the last user that opened the project
 # <User></User>
